@@ -1,0 +1,146 @@
+/* main page stylings  */
+.wrapper {
+	height: 960px;
+	background-color: #fafafa;
+	background-image: url('https://www.transparenttextures.com/patterns/asfalt-dark.png');
+	margin: 0px;
+}
+
+.containerMainPage,
+.headerWrapper,
+.innerHeaderWrapper {
+	margin: 0px auto;
+	max-width: 960px;
+}
+
+.containerMainPage {
+	background-color: #ffffff;
+}
+
+.headerWrapper {
+	background-color: #fffffe;
+	height: 57px;
+	max-width: unset;
+}
+
+section{
+    display: inline;
+}
+
+p {
+	width: 784px;
+	display: inline-block;
+	padding: 7px;
+	margin: 5px;
+	color: gray;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bigger-width{
+    width: 890px;
+}
+
+hr {
+	color: lightgray;
+}
+
+header {
+	background-color: #48aba8;
+	width: 86px;
+	display: inline-block;
+	height: 34px;
+	width: 150px;
+	text-align: center;
+	padding-top: 20px;
+	color: white;
+	font-style: bold;
+	font-weight: bold;
+}
+
+nav {
+	display: inline-block;
+	float: right;
+	padding: 15px;
+}
+
+a {
+	color: lightgray;
+	padding: 8px;
+}
+
+
+
+.profilePic {
+	height: 100px;
+	width: 100px;
+}
+
+h2 {
+    color: #48aba8;
+}
+
+/* portfolio.html stylings */
+
+.grid-container {
+        display: grid;
+        grid-gap: 5rem;
+        grid-template-columns:  repeat(3, 200px);
+        grid-template-rows: repeat(2, 100px);
+        padding: 60px;
+}
+
+.marriott-image {
+    background: url(../images/Marriott.jpg);
+    background-size: cover;
+
+}
+
+.nuance-image{
+    background: url(../images/NuanceAI.png);
+    background-size: cover;
+}
+
+.sava-senior-image{
+    background: url(../images/savaseniorcare2.jpg);
+    background-size: cover;
+}
+
+.future-developer{
+    background: url(../images/futuresoftware.jpg);
+    background-size: cover;
+}
+
+.engineer{
+    background: url(../images/developerimage.jpg);
+    background-size: cover;
+}
+
+h4{
+    text-align: center;
+    background: #48aba8;
+    color: white;
+    margin-top: 96px;
+    height: 40px;
+    font-size: 25px;
+}
+/* contact page stylings */
+
+.containerContact {
+	background-color: #fafafa;
+	height: 500px;
+}
+
+label {
+	display: block;
+}
+
+button {
+	display: block;
+}
+
+#name-input,
+#email-input {
+	width: 615px;
+}
+
+
